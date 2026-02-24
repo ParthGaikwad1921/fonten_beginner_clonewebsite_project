@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise 6</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @media screen and (max-width:466px) {
+            .items {
+                display: none;
+
+            }
+
+            .items {
+                display: none;
+            }
+
+            .container {
+                justify-content: center;
+            }
+
+            .img {
+                margin-right: 0;
+            }
+
+
+
+        }
+
+
+        .container {
+            border: 2px solid;
+            border-radius: 2px;
+            height: auto;
+            min-height: 52px;
+            padding: 4px 8px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            border-color: rgb(255, 196, 12);;
+            background-color: rgb(19, 19, 8);
+            position: sticky;
+            top: 0px;
+            z-index: 1000;
+            box-shadow: -7px -2px 5px 9px rgb(255, 196, 12);
+}
+        
+
+        .items {
+            margin: 6px;
+            padding: 6px;
+            color: rgb(255, 196, 12);
+
+
+        }
+
+        .img {
+            height: 36px;
+            border-radius: 44px;
+            margin-right: auto;
+        }
+
+        .heading {
+            width: vw;
+            height: 200px;
+            font-size: 30px;
+            padding: 43px;
+            text-align: center;
+        }
+
+        .windimage {
+            position: relative;
+            top: 25px;
+            size: 20px;
+        }
+
+        h4 {
+            text-align: center;
+            width: 100vw;
+            color: rgba(78, 76, 76, 0.82);
+            padding: 50px;
+            position: relative;
+
+        }
+
+        .Downloadlinux {
+            border: 2px solid rgba(199, 198, 173, 0.349);
+            ;
+            padding: 8px;
+            text-align: center;
+            width: 20vw;
+            border-radius: 12px;
+            position: relative;
+            top: 30px;
+            background-color: rgb(255, 196, 12);
+            color: black;
+            text-decoration: none;
+
+
+        }
+
+        .container3 {
+            text-decoration: solid;
+            color: dimgray;
+            text-align: center;
+            padding: 80px;
+        }
+
+        .img3 {
+            height: 40px;
+            position: relative;
+            right: 9px;
+            top: 5px;
+            border-radius: 202px;
+        }
+
+        p {
+            display: inline;
+            text-align: end;
+            font-size: 20px;
+        }
+
+        h2 {
+            font-size: 35px;
+        }
+
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-auto-rows: 200px;
+            row-gap: 15px;
+            column-gap: 15px;
+            padding: 40px;
+            width: 100vw;
+            align-content: center;
+        }
+
+        .item {
+            border-radius: 20px;
+            border: 2px solid;
+            height: 200px;
+            border-color: white;
+            background-color: rgba(105, 105, 105, 0.368);
+            text-align: center;
+            align-content: center;
+        }
+
+        h5 {
+
+            padding: 10px;
+            font-size: 25px;
+        }
+
+        h6 {
+
+            font-size: 15px;
+        }
+
+        .container4 {
+            background-color: black;
+            color: white;
+        }
+
+        h6 {
+            position: relative;
+            left: 9px;
+        }
+
+        .p {
+            font-size: 10px;
+            line-height: 2;
+
+
+        }
+        .p1 {
+            padding: 10px;
+            min-width: 214px;
+        }
+        .copyright{
+            padding: 8px;
+            color: rgb(142, 79, 201);
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="Screenshot 2026-02-22 180421.png" class="img">
+        <div class="items">Products</div>
+        <div class="items">Pricing</div>
+        <div class="items">Resources</div>
+        <div class="items">About us</div>
+    </div>
+    <div class="container2">
+        <h1 class="heading">
+            Download UltraEdit for Windows
+            <img src="Screenshot 2026-02-23 190803.png" class="windimage">
+        </h1>
+        <h4>
+            Download and try UltraEdit before you buy it! This download includes the full Windows version of the text
+            editor.
+            <div>
+                <a href="ue_allinone.exe" class="Downloadlinux">Download Mac or Linux Version</a>
+            </div>
+
+        </h4>
+    </div>
+    <div class="container3">
+        <div class="uly">
+            <h2 class="in">
+                <img src="Screenshot 2026-02-22 180421.png" class="img3">Download UltraEdit <p>v2025.2 (released
+                    2026-01-29) | Latest changes</p>
+            </h2>
+        </div>
+    </div>
+    <div class="grid">
+        <div class="item">
+            <h5>English</h5>
+            <h6>Includes all languages</h6>
+            <a href="ue_allinone.exe" class="Downloadlinux">Download 64-bit</a>
+        </div>
+        <div class="item">
+            <h5>Deutsch</h5>
+            <h6>German</h6>
+            <a href="ue_allinone.exe" class="Downloadlinux">Download 64-bit</a>
+        </div>
+        <div class="item">
+            <h5>Italiano</h5>
+            <h6>Italian</h6>
+            <a href="ue_allinone.exe" class="Downloadlinux">Download 64-bit</a>
+
+        </div>
+        <div class="item">
+            <h5>Español</h5>
+            <h6>Spanish</h6>
+            <a href="ue_allinone.exe" class="Downloadlinux">Download 64-bit</a>
+        </div>
+        <div class="item">
+            <h5>français</h5>
+            <h6>French</h6>
+            <a href="ue_allinone.exe" class="Downloadlinux">Download 64-bit</a>
+        </div>
+        <div class="item">
+            <h5>Português brasileiro</h5>
+            <h6>Brazilian Portuguese</h6>
+            <a href="ue_allinone.exe" class="Downloadlinux">Download 64-bit</a>
+        </div>
+        <div class="item">
+            <h5>日本</h5>
+            <h6>Japanese</h6>
+            <a href="ue_allinone.exe" class="Downloadlinux">Download 64-bit</a>
+        </div>
+        <div class="item">
+            <h5>한국어</h5>
+            <h6>Korean</h6>
+            <a href="ue_allinone.exe" class="Downloadlinux">Download 64-bit</a>
+        </div>
+        <div class="item">
+            <h5>华语</h5>
+            <h6>Chinese</h6>
+            <a href="ue_allinone.exe" class="Downloadlinux">Download 64-bit</a>
+        </div>
+        <div class="item">
+            <h5>華語</h5>
+            <h6>Traditional Chinese</h6>
+            <a href="ue_allinone.exe" class="Downloadlinux">Download 64-bit</a>
+        </div>
+    </div>
+    <footer>
+        <div class="container4">
+            <img src="Screenshot 2026-02-22 180421.png" class="footimg">
+            <h6>UltraEdit</h6>
+            <div class="p1">
+                <p class="p">UltraEdit is the powerful text editor built for developers,
+                    wranglers, and IT pros handling large files and complex tasks.</p>
+            </div>
+            <div class="copyright">
+            &copy;clone designed by ~Parth Gaikwad
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
